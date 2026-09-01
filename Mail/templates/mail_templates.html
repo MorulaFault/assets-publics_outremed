@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>
+        <?= title ?>
+    </title>
+</head>
+
+<body>
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="bg-wrapper">
+        <tr>
+            <td align="center">
+                <!-- CONTENEUR PRINCIPAL -->
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"
+                    class="main-container">
+
+                    <!-- EN-TÊTE / LOGO -->
+                    <tr>
+                        <td class="header-cell">
+                            <img src="../assets/img/outremed_logo.png" width="150" alt="Outremed" class="logo">
+                        </td>
+                    </tr>
+
+                    <!-- CONTENU DYNAMIQUE DU MAIL -->
+                    <tr>
+                        <td class="content-body">
+
+                            <!-- Salutation -->
+                            <p class="greeting">Bèl bonjou <strong>
+                                    <?= nom ?>
+                                </strong>,</p>
+
+                            <!-- Insérer le texte/paragraphes du mail ici -->
+                            <p>Insérer ton texte ici...</p>
+
+                            <!-- Highlight / Mise en avant texte (Optionnel) -->
+                            <p class="tagline">Message fort / Citation ici !!!</p>
+
+                            <!-- BOUTON D'ACTION DYNAMIQUE (Optionnel) -->
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
+                                class="btn-table">
+                                <tr>
+                                    <td align="center" class="btn-cell">
+                                        <a href="https://lien-action.com" target="_blank" class="btn-link">
+                                            <img src="../assets/img/discord.png" width="20" height="15" alt="Icône"
+                                                class="btn-icon" />
+                                            <span class="btn-text">Texte du bouton</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Formule de politesse -->
+                            <p class="signoff">À très vite !</p>
+                        </td>
+                    </tr>
+
+                    <!-- PIED DE PAGE AVEC RÉSEAUX SOCIAUX -->
+                    <tr>
+                        <td class="footer">
+                            <p class="footer-title">Retrouve Outremed & Docteur au Soleil sur nos réseaux :</p>
+
+                            <!-- TABLE DES ICÔNES SOCIALES -->
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
+                                class="social-table">
+                                <tr>
+                                    <!-- SITE WEB -->
+                                    <td class="social-cell">
+                                        <a href="https://sites.google.com/view/passlas-antilles-guyane/accueil?authuser=0"
+                                            target="_blank" title="Site Docteur au Soleil">
+                                            <img src="https://lh3.googleusercontent.com/sitesv/AG8ngQWpR0g-PkEyZ-BND2m7wWYNtMnBHl4bE0A8SxEdCeJl_zh4Fv4Rm3IBsQ1ulj3sp-BAInZdsbydvQPTVJSrNF8wOYp_7_QZhVzA8VlSTOW-HiFqYyKAnQzr6qI8JU6UyHyzouR7wU7iA_iqeX3Vn-nQXDbcxohhao5rl6JkauujNveVToSEo6EpvOjF=w16383"
+                                                width="32" height="32" alt="Site Web" class="social-icon" />
+                                        </a>
+                                    </td>
+                                    <!-- INSTA DOCTEUR AU SOLEIL -->
+                                    <td class="social-cell">
+                                        <a href="https://www.instagram.com/docteur_au_soleil?igsi=NzE3bHZjYzN4aHlk"
+                                            target="_blank" title="Instagram Docteur au Soleil">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+                                                width="32" height="32" alt="Instagram Docteur au Soleil"
+                                                class="social-icon" />
+                                        </a>
+                                    </td>
+                                    <!-- INSTA OUTREMED -->
+                                    <td class="social-cell">
+                                        <a href="https://www.instagram.com/outremedag?igsi=emozZ2FzMXQ5NGp5"
+                                            target="_blank" title="Instagram Outremed">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png"
+                                                width="32" height="32" alt="Instagram Outremed" class="social-icon" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p class="copyright">Outremed — Collectivement engagés pour la réussite des étudiants de
+                                santé.</p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

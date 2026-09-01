@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+}
+
+.bg-wrapper {
+    background-color: #f4f6f8;
+    padding: 20px 10px;
+}
+
+.main-container {
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.header-cell {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.content-body {
+    padding: 25px 30px 35px 30px;
+    color: #2c3e50;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.greeting {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.tagline {
+    text-align: center;
+    font-weight: bold;
+    margin: 25px 0 15px 0;
+    color: #1a252f;
+    font-size: 16px;
+}
+
+.btn-table {
+    margin: 30px auto;
+}
+
+.btn-cell {
+    background-color: #5865F2;
+    border-radius: 8px;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 14px 28px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    border: 0;
+}
+
+.btn-text {
+    vertical-align: middle;
+}
+
+.signoff {
+    margin-bottom: 0;
+}
+
+.footer {
+    padding: 25px 30px;
+    background-color: #fafbfc;
+    border-top: 1px solid #edf2f7;
+    text-align: center;
+}
+
+.footer-title {
+    margin: 0 0 15px 0;
+    font-size: 13px;
+    color: #718096;
+    font-weight: bold;
+}
+
+.social-table {
+    margin: 0 auto;
+}
+
+.social-cell {
+    padding: 0 12px;
+}
+
+.social-icon {
+    display: block;
+    border: 0;
+}
+
+.copyright {
+    margin: 15px 0 0 0;
+    font-size: 11px;
+    color: #a0aec0;
+}

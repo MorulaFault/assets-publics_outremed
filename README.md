@@ -1,0 +1,2 @@
+# Assets public
+## Automatisation mail 
